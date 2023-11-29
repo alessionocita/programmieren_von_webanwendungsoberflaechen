@@ -1,0 +1,67 @@
+[
+   {    
+        "id": 1,
+        "country": "Andorra",
+        "company": "Polluting Inc.",
+        "co2_y": 1500000
+    },
+    {
+        "id": 2,
+        "country": "Germany",
+        "company": "Stinky Cars AG",
+        "co2_y": 1200000
+        },
+    {
+        "id": 3,
+        "country": "United States",
+        "company": "Dirty & Dirty",
+        "co2_y": 1300000
+    },
+    {
+        "id": 4,
+        "country": "France",
+        "company": "Smoggy Wines Ltd.",
+        "co2_y": 1100000
+    },
+    {
+        "country": "Brazil",
+        "company": "Amazon Deforesters Co.",
+        "co2_y": 2000000
+    },
+    {
+        "id": 5,
+        "country": "Australia",
+        "company": "Coal & Koalas Pty.",
+        "co2_y": 1800000
+    },
+    {
+        "id": 6,
+        "country": "Japan",
+        "company": "Techy Smokes Corp.",
+        "co2_y": 1050000
+    },
+    {
+        "id": 7,
+        "country": "South Africa",
+        "company": "Mines & Fumes Ltd.",
+        "co2_y": 1700000
+    },
+    {
+        "id": 8,
+        "country": "Canada",
+        "company": "Maple & Motors Inc.",
+        "co2_y": 1400000
+    },
+    {
+        "id": 9,
+        "country": "India",
+        "company": "Dusty Industries Pvt.",
+        "co2_y": 2100000
+    },
+    {
+        "id": 10,
+        "country": "United Kingdom",
+        "company": "Foggy Factories Ltd.",
+        "co2_y": 1000000
+    }
+]
