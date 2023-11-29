@@ -1,0 +1,29 @@
+.container {
+    float: right;
+    margin: 80px;
+    width: 50vw;
+}
+
+.menu {
+    min-width: 540px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Raleway', 'Arial', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 28px;
+    list-style: none;
+    color: white;
+}
+
+.menu li a {
+    color: white;
+}
+
+.menu li a:hover {
+    color: gold;
+}
+
+.active {
+    text-decoration: underline;
+}

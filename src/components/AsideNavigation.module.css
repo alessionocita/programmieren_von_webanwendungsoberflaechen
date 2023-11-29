@@ -1,0 +1,41 @@
+.container {
+    width: 20vw;
+    margin-left: 40px;
+}
+
+.menu {
+    font-family: 'Raleway', 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    list-style: none;
+    line-height: 2em;
+}
+
+.menu li a {
+    color: white;
+}
+
+.menu li a:hover {
+    color: gold;
+}
+
+.menuIcon {
+    max-width: 20px;
+    max-height: 20px;
+    margin: 5px 20px 0 0;
+    transform: translateY(2px);
+}
+
+.menuItem {
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+
+/* Durch diese Anweisung wird dafür gesorgt, dass die Farbe des svg-icons sich ebenfalls zu "gold" ändert, wenn der Link-Zustand zu "hover" wechselt. */
+.menuIcon:has(+ a:hover) {
+    filter: brightness(0) saturate(100%) invert(72%) sepia(98%) saturate(643%) hue-rotate(358deg) brightness(102%) contrast(106%) !important;
+}
+
+.active {
+    text-decoration: underline;
+}

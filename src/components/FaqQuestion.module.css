@@ -1,0 +1,71 @@
+.questionContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 16px 20px 0;
+    max-height: 20px;
+    z-index: 10;
+}
+
+.questionContainer h3 {
+    margin: 10px 0 0;
+}
+
+/* UI Arrow für jede Frage. 
+Wird um 90 Grad vor und zurück gedreht, wenn eine FAQ-Antwort ihr visible-hidden Status wechselt */
+.arrowVisible,
+.arrowHidden {
+    width: 20px;
+    height: 20px;
+    margin: 10px 10px 0 0;
+    transition: transform 0.2s ease-out;
+}
+
+.arrowHidden {
+    transform: rotate(90deg);
+}
+
+/* Die Blöcke für jeden Answer schalten von versteckt auf sichtbar (und anders herum)
+durch Opacity und Height, wenn die Frage angeclickt wird */
+.answerVisible,
+.answerHidden {
+    transition: max-height 0.5s ease-out;
+    z-index: 1;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.answerVisible {
+    opacity: 1;
+    max-height: 150px;
+    transition: all 0.5s ease-in;
+    margin-top: 20px;
+}
+
+.answerHidden {
+    opacity: 0;
+    max-height: 0px;
+    transition: all 0.5s ease-in;
+
+}
+
+@media only screen and (max-width: 414px) {
+    .questionContainer {
+        margin: 0 0 4px;
+    }
+
+    .questionContainer h3 {
+        font-size: 16px;
+    }
+
+    .answerVisible {
+        margin: 20px 0 16px;
+        max-height: 200px;
+    }
+
+    .answerHidden p,
+    .answerVisible p {
+        font-size: 16px;
+        margin: 0;
+    }
+}

@@ -1,0 +1,156 @@
+.container {
+    background-color: white;
+    color: #0C2072;
+    width: 28vw;
+    padding: 20px;
+    margin: 0 40px 0 0;
+    display: flex;
+    float: left;
+}
+
+.text {
+    margin: 20px 20px 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 46vh;
+}
+
+.form div label {
+    font-family: "Raleway", Arial, sans-serif;
+}
+
+.form input:not([type="checkbox"]),
+.form textarea {
+    margin: 10px 0;
+    min-height: 24px;
+    font-family: "Shanti", Tahoma, sans-serif;
+    background-color: #eee;
+    border: 1px solid grey;
+    box-shadow: inset 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-self: end;
+    margin: 10px 0 0 0;
+    height: 40px;
+    padding: 0;
+}
+
+.checkbox {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 6px;
+    min-height: 20px;
+}
+
+.checkbox input {
+    margin: 2px 6px 0 0;
+
+}
+
+.checkbox label {
+    margin: 0;
+}
+
+label.checkboxLabel {
+    padding: 0;
+    margin: 0;
+    align-self: flex-start;
+}
+
+.buttons button {
+    margin: 0 0 0 20px;
+    height: 40px;
+    width: 80px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white;
+    color: #0C2072;
+    border: 2px solid #0C2072;
+}
+
+.buttons button:hover {
+    background-color: #0C2072;
+    color: white;
+}
+
+.errorMessage {
+    font-family: "Shanti", Tahoma, sans-serif;
+    font-size: 12px;
+    color: red;
+}
+
+.responseMessage {
+    font-family: "Shanti", Tahoma, sans-serif;
+    font-size: 16px;
+    color: green;
+    height: 52px;
+}
+
+
+@media only screen and (max-width: 820px) {
+
+    .container {
+        max-height: 52vh;
+        width: 72vw;
+        float: none;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .buttons button {
+        height: 28px;
+        width: 60px;
+    }
+
+    .form {
+        min-height: 52vh;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+
+    .container {
+        width: 68vw;
+        margin: 0;
+    }
+
+    .form {
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    .form input,
+    .form textarea {
+        max-width: 68vw;
+    }
+
+    .buttons button {
+        height: 28px;
+        width: 60px;
+    }
+
+    .checkbox {
+        margin-bottom: 6px;
+        min-height: 40px;
+    }
+
+    .responseMessage {
+        height: 92px;
+    }
+
+    .errorMessage {
+        transform: translateY(0px);
+        font-size: 14px;
+    }
+
+}

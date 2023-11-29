@@ -1,0 +1,14 @@
+.logo {
+  height: 20%;
+  width: 20%;
+  min-width: 140px;
+  min-height: 50px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 414px) {
+  .logo {
+    margin: 20px 0 0 24px;
+  }
+}

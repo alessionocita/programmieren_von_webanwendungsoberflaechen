@@ -1,0 +1,34 @@
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 20vw;
+    min-width: 200px;
+    font-family: 'Raleway', 'Arial', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    list-style: none;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.menu li a {
+    color: white;
+}
+
+.menu li a:hover {
+    color: gold;
+}
+
+
+@media only screen and (max-width: 414px) {
+    .menu {
+        font-size: 16px;
+        min-width: 140px;
+    }
+}
