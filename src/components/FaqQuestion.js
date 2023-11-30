@@ -21,6 +21,7 @@ function FaqQuestion(props) {
       >
         <img
           src={arrow}
+          alt = ""
           className={
             !questionVisible ? styles.arrowVisible : styles.arrowHidden
           }

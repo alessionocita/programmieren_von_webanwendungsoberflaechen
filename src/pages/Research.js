@@ -16,7 +16,7 @@ function Research(props) {
 
       <main className={styles.main}>
         <h1>OUR RESEARCH</h1>
-        <img src={image} className={styles.image} />
+        <img src={image} alt="researching scientists" className={styles.image} />
 
         <p>
           At ClimateCare, our commitment to combating global warming is rooted

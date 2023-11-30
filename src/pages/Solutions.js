@@ -15,7 +15,7 @@ function Solutions(props) {
 
       <main className={styles.main}>
         <h1>SOLUTIONS</h1>
-        <img src={image} className={styles.image} />
+        <img src={image} alt="melting glaciers" className={styles.image} />
 
         <h2>Who we are</h2>
         <p>

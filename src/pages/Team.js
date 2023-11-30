@@ -21,32 +21,32 @@ function Team(props) {
         <h1>OUR TEAM</h1>
         <div className={styles.teamContainer}>
           <div className={styles.person}>
-            <img src={ceo} className={styles.portrait} />
+            <img src={ceo} alt="Laura Chen" className={styles.portrait} />
             <span className={styles.personName}>Laura Chen</span>
             <span className={styles.role}>Chief Executive Officer</span>
           </div>
           <div className={styles.person}>
-            <img src={cto} className={styles.portrait} />
+            <img src={cto} alt="James Akintola" className={styles.portrait} />
             <span className={styles.personName}>James Akintola</span>
             <span className={styles.role}>Chief Technology Officer</span>
           </div>
           <div className={styles.person}>
-            <img src={headOfMarketing} className={styles.portrait} />
+            <img src={headOfMarketing} alt="Emily Thompson" className={styles.portrait} />
             <span className={styles.personName}>Emily Thompson</span>
             <span className={styles.role}>Head of Marketing</span>
           </div>
           <div className={styles.person}>
-            <img src={productManager} className={styles.portrait} />
+            <img src={productManager} alt="Robert Collins" className={styles.portrait} />
             <span className={styles.personName}>Robert Collins</span>
             <span className={styles.role}>Product Manager</span>
           </div>
           <div className={styles.person}>
-            <img src={humanResources} className={styles.portrait} />
+            <img src={humanResources} alt="Sarah Williams" className={styles.portrait} />
             <span className={styles.personName}>Sarah Williams</span>
             <span className={styles.role}>Human Resources</span>
           </div>
           <div className={styles.person}>
-            <img src={sustainabilityManager} className={styles.portrait} />
+            <img src={sustainabilityManager} alt="Ajrun Patel" className={styles.portrait} />
             <span className={styles.personName}>Ajrun Patel</span>
             <span className={styles.role}>Sustainability Manager</span>
           </div>

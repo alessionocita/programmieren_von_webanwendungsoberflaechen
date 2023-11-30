@@ -15,7 +15,7 @@ function About(props) {
 
       <main className={styles.main}>
         <h1>ABOUT US</h1>
-        <img src={image} className={styles.image} />
+        <img src={image} alt="Melting Glacier" className={styles.image} />
 
         <h2>Who we are</h2>
         <p>

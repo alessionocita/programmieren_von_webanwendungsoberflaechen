@@ -31,6 +31,7 @@ function MenuSlider(props) {
     <div className={menuIsHidden ? styles.sliderHidden : styles.sliderVisible}>
       <img
         src={close}
+        alt = "close icon"
         className={styles.closeIcon}
         onClick={onIconActivateHandler}
       />

@@ -15,7 +15,7 @@ function Home(props) {
 
       <main className={styles.main}>
         <h1>CHAMPIONING A GREENER TOMORROW. TODAY.</h1>
-        <img src={image} className={styles.image} />
+        <img src={image} alt="Scientists conference" className={styles.image} />
 
         <p>
           At ClimateCare, we believe in a world where the balance of nature is

@@ -24,35 +24,35 @@ function Partners(props) {
         <h1>Partners</h1>
         <div className={styles.partnersContainer}>
           <div className={styles.partner}>
-            <img src={clearSkyLogo} className={styles.logo} />
+            <img src={clearSkyLogo} alt="ClearSky Logo" className={styles.logo} />
             <span className={styles.companyName}>Clearsky Areonautics</span>
           </div>
           <div className={styles.partner}>
-            <img src={earthboundLogo} className={styles.logo} />
+            <img src={earthboundLogo} alt="EarthBound Logo" className={styles.logo} />
             <span className={styles.companyName}>Earthbound Construction</span>
           </div>
           <div className={styles.partner}>
-            <img src={ecodriveLogo} className={styles.logo} />
+            <img src={ecodriveLogo} alt="ecoDrive Logo" className={styles.logo} />
             <span className={styles.companyName}>Ecodrive Motors</span>
           </div>
           <div className={styles.partner}>
-            <img src={forestguardLogo} className={styles.logo} />
+            <img src={forestguardLogo} alt="forestGuard Logo" className={styles.logo} />
             <span className={styles.companyName}>Forestguard</span>
           </div>
           <div className={styles.partner}>
-            <img src={greentechLogo} className={styles.logo} />
+            <img src={greentechLogo} alt="GreenTech Logo" className={styles.logo} />
             <span className={styles.companyName}>Greentech Innovations</span>
           </div>
           <div className={styles.partner}>
-            <img src={pureflowLogo} className={styles.logo} />
+            <img src={pureflowLogo} alt="PureFlow Logo" className={styles.logo} />
             <span className={styles.companyName}>Pureflow</span>
           </div>
           <div className={styles.partner}>
-            <img src={solarscapeLogo} className={styles.logo} />
+            <img src={solarscapeLogo} alt="SolarScape Logo" className={styles.logo} />
             <span className={styles.companyName}>Solarscape</span>
           </div>
           <div className={styles.partner}>
-            <img src={wavetideLogo} className={styles.logo} />
+            <img src={wavetideLogo} alt="Wavetide Logo" className={styles.logo} />
             <span className={styles.companyName}>Wavetide</span>
           </div>
           <div className={styles.partner}></div>

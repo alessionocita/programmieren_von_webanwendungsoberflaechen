@@ -17,7 +17,7 @@ function AsideNavigation(props) {
         {props.menuLinks.map((menuLink) => {
           return (
             <li key={menuLink} className={styles.menuItem}>
-              <img src={menuIcon} className={styles.menuIcon} />
+              <img src={menuIcon} alt="" className={styles.menuIcon} />
               {/* Falls der Eintrag "Home" ist, so wird der to-paramenter auf "/" gesetzt.
               Ansonsten wird der Anfang-Buchstabe in lowerCase konvertiert. */}
               <NavLink

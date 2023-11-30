@@ -9,9 +9,9 @@ import instagramLogo from "../assets/instagram_glyph_white.svg";
 function SocialNavigation() {
   return (
     <div className={styles.container}>
-      <img src={facebookLogo} className={styles.logo} />
-      <img src={instagramLogo} className={styles.logo} />
-      <img src={xLogo} className={styles.logo} />
+      <img src={facebookLogo} alt="Facebook Logo" className={styles.logo} />
+      <img src={instagramLogo} alt="Instagram Logo" className={styles.logo} />
+      <img src={xLogo} alt="X Logo" className={styles.logo} />
     </div>
   );
 }

@@ -21,7 +21,7 @@ function News(props) {
       <main className={styles.main}>
         <h1 className={styles.title}>News</h1>
         <div className={styles.news}>
-          <img src={news1} className={styles.image} />
+          <img src={news1} alt="ClimateCare Anniversary" className={styles.image} />
 
           <h4>March 1, 2023</h4>
           <h2>Celebrating Our Milestone: Five Years of ClimateCare Ventures</h2>
@@ -35,7 +35,7 @@ function News(props) {
         </div>
 
         <div className={styles.news}>
-          <img src={news2} className={styles.image} />
+          <img src={news2} alt="Green Park Day" className={styles.image} />
 
           <h4>April 15, 2023</h4>
           <h2>Engaging with the Community at Green Park Day</h2>
@@ -48,7 +48,7 @@ function News(props) {
         </div>
 
         <div className={styles.news}>
-          <img src={news3} className={styles.image} />
+          <img src={news3} alt="Carbon Footprints Workshop" className={styles.image} />
 
           <h4>June 10, 2023</h4>
           <h2>Workshop on Reducing Household Carbon Footprints</h2>
@@ -61,7 +61,7 @@ function News(props) {
         </div>
 
         <div className={styles.news}>
-          <img src={news4} className={styles.image} />
+          <img src={news4} alt="Solar Panel Installation" className={styles.image} />
 
           <h4>August 20, 2023</h4>
           <h2>Solar Panel Installation Project Completed</h2>
@@ -74,7 +74,7 @@ function News(props) {
         </div>
 
         <div className={styles.news}>
-          <img src={news5} className={styles.image} />
+          <img src={news5} alt="Team meeting" className={styles.image} />
 
           <h4>October 5, 2023</h4>
           <h2>Planning for the Future: Team Meeting Highlights</h2>

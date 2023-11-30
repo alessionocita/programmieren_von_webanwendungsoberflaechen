@@ -20,7 +20,7 @@ function Testimonials(props) {
       <main className={styles.main}>
         <h1>TESTIMONIALS</h1>
         <div className={styles.testimonial}>
-          <img src={testimonial1} className={styles.image} />
+          <img src={testimonial1} alt="Jane Mitchell" className={styles.image} />
           <div className={styles.textBox}>
             <h3>Jane Mitchell</h3>
             <h4>Environmental Project Manager, Green Earth Initiatives</h4>
@@ -34,7 +34,7 @@ function Testimonials(props) {
         </div>
 
         <div className={styles.testimonial}>
-          <img src={testimonial2} className={styles.image} />
+          <img src={testimonial2} alt="Richard Forster" className={styles.image} />
           <div className={styles.textBox}>
             <h3>Richard Forster</h3>
             <h4>Professor of Environmental Science, Stanford University</h4>
@@ -48,7 +48,7 @@ function Testimonials(props) {
         </div>
 
         <div className={styles.testimonial}>
-          <img src={testimonial3} className={styles.image} />
+          <img src={testimonial3} alt="Aisha Fernandez" className={styles.image} />
           <div className={styles.textBox}>
             <h3>Aisha Fernandez</h3>
             <h4>Director of Sustainability, Urban Planning Association</h4>
@@ -62,7 +62,7 @@ function Testimonials(props) {
         </div>
 
         <div className={styles.testimonial}>
-          <img src={testimonial4} className={styles.image} />
+          <img src={testimonial4} alt="Samuel Harris" className={styles.image} />
           <div className={styles.textBox}>
             <h3>Samuel Harris</h3>
             <h4>Environmental Policy Advisor, United Nations</h4>

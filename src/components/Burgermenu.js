@@ -16,7 +16,7 @@ function Burgermenu(props) {
 
   return (
     <figure className={styles.container} onClick={onActivateHandler}>
-      <img src={icon} className={styles.icon} />
+      <img src={icon} alt="burgermenu icon" className={styles.icon} />
       <figcaption className={styles.caption}>MENU</figcaption>
     </figure>
   );
