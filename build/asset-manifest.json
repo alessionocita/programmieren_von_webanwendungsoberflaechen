@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.5b23290e.css",
-    "main.js": "/static/js/main.c3f34a81.js",
+    "main.js": "/static/js/main.e075d0a3.js",
     "static/css/574.b5535a56.chunk.css": "/static/css/574.b5535a56.chunk.css",
-    "static/js/574.c0aeee0e.chunk.js": "/static/js/574.c0aeee0e.chunk.js",
+    "static/js/574.54f6bffa.chunk.js": "/static/js/574.54f6bffa.chunk.js",
     "static/media/climateCare_glacier.png": "/static/media/climateCare_glacier.ef880f4f6a5e34e3394b.png",
     "static/media/climateCare_scientists.png": "/static/media/climateCare_scientists.411152ff54868af54f32.png",
     "static/media/news_green_park_day.png": "/static/media/news_green_park_day.dbd9c625c5e87953f375.png",
@@ -39,12 +39,12 @@
     "static/media/burgermenu.svg": "/static/media/burgermenu.8418d8751548d02edd090ea791ea0f29.svg",
     "static/media/x-logo-white.svg": "/static/media/x-logo-white.5ad7666d04b3c92604fa05e88ffa1906.svg",
     "main.5b23290e.css.map": "/static/css/main.5b23290e.css.map",
-    "main.c3f34a81.js.map": "/static/js/main.c3f34a81.js.map",
+    "main.e075d0a3.js.map": "/static/js/main.e075d0a3.js.map",
     "574.b5535a56.chunk.css.map": "/static/css/574.b5535a56.chunk.css.map",
-    "574.c0aeee0e.chunk.js.map": "/static/js/574.c0aeee0e.chunk.js.map"
+    "574.54f6bffa.chunk.js.map": "/static/js/574.54f6bffa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b23290e.css",
-    "static/js/main.c3f34a81.js"
+    "static/js/main.e075d0a3.js"
   ]
 }
